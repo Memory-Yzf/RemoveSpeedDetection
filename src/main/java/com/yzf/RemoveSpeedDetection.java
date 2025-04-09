@@ -1,8 +1,8 @@
 package com.yzf;
 
-import net.neoforged.fml.common.Mod;
+import net.fabricmc.api.ModInitializer;
 
-@Mod(RemoveSpeedDetection.MODID)
-public class RemoveSpeedDetection {
-    public static final String MODID = "removespeeddetection";
+public class Removespeeddetection implements ModInitializer {
+    @Override
+    public void onInitialize() {}
 }
